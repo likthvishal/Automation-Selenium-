@@ -1,0 +1,12 @@
+under test.py to execute use:
+    py.test --browser_name [type browser name]
+
+
+to generate html report:
+    py.test --html=report.html
+
+jenkins:
+    java -jar jenkins.war -httpPort=0000
+
+to execute in jenkins:
+    py.test --browser_name chrome --html=report.html
